@@ -1,0 +1,362 @@
+@media screen and (max-width: 1200px){
+	.diamond{
+		margin-left: 0;
+	}
+	.diamond__comments{
+		padding-right: 10px;
+		margin-left: -12px;
+	}
+	.about__me_diamonds{
+		margin-right: 40px;
+	}
+	.comment{
+		padding-left: 22px;
+	}
+}
+
+@media screen and (max-width: 992px){
+	.container{
+		width: 720px;
+	}
+	.header__title_big{
+		top: 32%;
+	}
+	.header__title_small{
+		top: 51%;
+		left: 2%;
+	}
+	.about__me{
+		margin-top: 65px;
+	}	
+	.about__me_title{
+		padding-bottom: 50px; 
+	}
+	.text{
+		width: 360px;
+		font-size: 15px;
+	}
+	.diamond{
+        border: 1px solid #3e6534;
+    	width: 70px;
+    	height: 70px;
+    }
+ 	.diamond:before {
+    	width: 55px;
+    	height: 55px;
+    }
+    .about__me_skills{
+		margin-left: 22px;
+	}
+	.diamond__comments{
+		font-size: 12px;
+	}
+	.about__me_diamonds{
+		margin-right: 5px;
+	}
+	.about__me_line{
+		margin-left: 15px;
+		margin-bottom: 85px;
+	}	
+	.about__me_contacts{
+		margin-top: 55px;
+		display: block;
+	}
+	.icon__circle{
+		width: 60px;
+		height: 60px;
+	}
+	.icon{
+		padding-left: 19px;
+	}
+	.contacts__icon{
+		margin-left: -6px;
+	}
+	.icon__text{
+		margin-left: 10px;
+	}
+	.skills__line{
+		margin-top: 50px;
+		margin-bottom: 70px;
+	}
+	.circles__with_info{
+		width: 60%;
+	}
+	.circle__info{
+		font-size: 15px;
+		text-align: justify;
+	}
+	.footer__line{
+		margin-top: 90px;
+		margin-bottom: 90px;
+	}
+	.info{
+		margin-right: 10px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.container{
+		width: 540px;
+	}
+	.logo__first_word, .logo__second_word{
+		font-size: 13px;
+	}
+	.header__menu{
+		font-size: 12px;
+		width: 260px;
+		letter-spacing: 2px;
+	}
+	.text{
+		width: 100%;
+	}
+	.about__me_background{
+		display: block;
+	}
+	.about__me{
+		margin-top: 65px;
+	}
+	.about__me_line{
+		margin-top: 50px;
+		margin-bottom: 30px
+	}
+	.diamond__comments{
+		font-size: 12px;
+		padding-top: 30px;
+		padding-bottom: 25px;
+		margin-right: 40px;
+	}
+	.comment{
+		margin-right: 0;
+	}
+	.circle__info{
+		font-size: 11px;
+	}
+	.contacts__icon{
+		margin-left: 30px;
+	}
+	.works__img_line{
+		display: flex;
+		flex-direction: column;
+		flex-flow: row wrap;
+		justify-content: center;
+	}
+	.works__img{
+		margin-bottom: 25px;
+	}
+	.info{
+		margin-right: 10px;
+	}
+	.about__me_contacts{
+		margin-top: 30px;
+		display: flex;
+	}
+	.about__me_skills{
+		margin-top: 50px;
+	}
+	.about__me_diamonds{
+		margin-left: 20px;
+	}
+	h2, h3{
+		text-align: center;
+	}
+	.footer__line{
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 576px){
+	.container{
+		width: 90%;
+	}
+	nav{
+		display: block;
+		margin-left: 20px;
+		line-height: 25px;
+		top: 5%;
+	}
+	.logo__first_word, .logo__second_word{
+		font-size: 12px;
+	}
+	.mail{
+		color: #fff;
+		font-size: 13px;
+		font-weight: 900;
+	}
+	.header__menu{
+		font-size: 12px;
+		width: 240px;
+		letter-spacing: 2px;
+	}
+	.header__title_big{
+   		font-size: 32px;
+   		top: 46%;
+	}
+	.header__title_small{
+		top: 60%;
+		font-size: 23px;		
+	}
+	.about__me_background{
+		display: block;
+	}
+	.text{
+		width: 100%;
+		font-size: 15px;
+	}
+	.diamond__comments{
+		padding-top: 28px;
+		margin-left: 5px;
+	}
+	.comment{
+		margin-right: 50px;
+	}
+	.contacts__left{
+		margin-top: 10px;
+	}
+	.circle__info{
+		padding-bottom: 80px;
+		margin-left: 60px;
+	}
+	.circle__outside{
+		padding-top: -30px;
+	}
+	.works__img_line{
+		display: flex;
+		flex-direction: column;
+		flex-flow: row wrap;
+		justify-content: center;
+	}
+	.works__img {
+    	margin-right: 0;
+	}
+	.icon__text{
+		margin-left: 0;
+		margin-top: 10px;
+	}
+	.contacts__icon{
+		display: block;
+		margin-top: 10px;
+	}
+	.about__me_contacts{
+		display: flex;
+		flex-direction: column;
+		flex-flow: row nowrap;
+		justify-content: center;
+	}
+	.skills__line{
+		margin-top: 60px;
+		margin-bottom: 50px;
+	}
+	.skills__line_circles{
+		display: block;
+	}
+	.circle__outside{
+		-webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    	animation: mymove 5s infinite;
+    }
+	@-webkit-keyframes mymove {
+    	from {right: 280px;}
+    	to {right: 0px;}
+	}
+	@keyframes mymove {
+    	from {right: 280px;}
+    	to {right: 0px;}
+	}
+	.about__me_line{
+		display: block;
+	}
+	.diamond{
+		-webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    	animation: mymove 5s infinite;
+    }
+	@-webkit-keyframes mymove {
+    	from {left: 0px;}
+    	to {left: 200px;}
+	}
+	@keyframes mymove {
+    	from {left: 0px;}
+    	to {left: 200px;}
+	}
+	.footer__line{
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 394px){
+	.container{
+		width: 90%;
+	}
+	.header__title_small{
+		top: 68%;
+		font-size: 23px;		
+	}
+	.skills__line_circles{
+		display: block;
+		margin-left: 10px;
+	}
+	.diamond__comments{
+		margin-left: 30px;
+	}
+	.circle__info{
+		margin-left: 17px;
+	}
+	.contacts__left{
+		margin-top: 20px;
+		text-align: center;
+	}
+	.skills__line{
+		margin-top: 80px;
+	}
+	.info{
+		margin-right: 15px;
+	}
+	.about__me_contacts{
+		display: block;
+	}	
+    .contacts__icon{
+    	display: flex;
+    }
+    .icon__circle{
+		width: 60px;
+		height: 60px;
+		margin-left: 0;
+		margin-top: 40px;
+	}
+	.icon__text{
+		margin-left: 15px;
+		margin-top: 50px;
+	}
+	.icon{
+		padding-left: 16px;
+		padding-top: 16px;
+	}
+	.about__me_diamonds{
+		margin-right: 0;
+	}
+	.comment{
+		margin-left: 0;
+	}
+	.circle__outside{
+		-webkit-animation: mymove 6s infinite; /* Safari 4.0 - 8.0 */
+    	animation: mymove 6s infinite;
+    }
+    @-webkit-keyframes mymove {
+    	from {left: 0px;}
+    	to {left: 70px;}
+	}
+	@keyframes mymove {
+    	from {left: 0px;}
+    	to {left: 70px;}
+	}
+	.diamond{
+		-webkit-animation: mymove 5s infinite;  /*Safari 4.0 - 8.0*/
+    	animation: mymove 5s infinite;
+    }
+    @-webkit-keyframes mymove {
+    	from {left: 0px;}
+    	to {left: 70px;}
+	}
+	@keyframes mymove {
+    	from {left: 0px;}
+    	to {left: 70px;}
+	}
+}
